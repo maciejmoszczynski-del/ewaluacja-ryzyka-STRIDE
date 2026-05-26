@@ -419,7 +419,7 @@
             },
             "attrs": {
               "text": {
-                "text": "DataStore"
+                "text": "Baza danych użytkownika"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -518,7 +518,7 @@
             "id": "d1992782-ba97-48a6-bec6-bdf0d987fafd",
             "data": {
               "type": "tm.Store",
-              "name": "DataStore",
+              "name": "Baza danych użytkownika",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -530,6 +530,13 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -792,7 +799,12 @@
               "cell": "f1b1039b-39c8-4160-93f8-410e58b4b904",
               "port": "7c110f6a-eb7f-4220-a35b-f63aa87fc986"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 480,
+                "y": 320
+              }
+            ]
           },
           {
             "shape": "flow",
