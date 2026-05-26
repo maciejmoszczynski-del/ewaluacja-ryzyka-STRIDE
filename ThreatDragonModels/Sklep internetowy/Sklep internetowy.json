@@ -16,7 +16,42 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.6.2",
-        "cells": []
+        "cells": [
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Internet",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Internet"
+            ],
+            "id": "aff24ba0-945e-4729-9cf6-ad2cc1a96cc9",
+            "source": {
+              "x": 430,
+              "y": 130
+            },
+            "target": {
+              "x": 430,
+              "y": 550
+            },
+            "vertices": [
+              {
+                "x": 430,
+                "y": 30
+              }
+            ]
+          }
+        ]
       }
     ],
     "diagramTop": 1,
