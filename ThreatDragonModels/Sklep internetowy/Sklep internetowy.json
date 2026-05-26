@@ -72,6 +72,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 0,
             "ports": {
               "groups": {
                 "top": {
@@ -155,7 +156,6 @@
               ]
             },
             "id": "4ed83a79-3402-41d9-ad89-2fffcb1fef63",
-            "zIndex": 0,
             "data": {
               "type": "tm.Actor",
               "name": "Użytkownik",
@@ -189,6 +189,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -272,7 +273,6 @@
               ]
             },
             "id": "f1b1039b-39c8-4160-93f8-410e58b4b904",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Aplikacja frontend",
@@ -309,6 +309,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -405,8 +406,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 2
+            }
           },
           {
             "position": {
@@ -432,6 +432,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -515,7 +516,6 @@
               ]
             },
             "id": "d1992782-ba97-48a6-bec6-bdf0d987fafd",
-            "zIndex": 3,
             "data": {
               "type": "tm.Store",
               "name": "DataStore",
