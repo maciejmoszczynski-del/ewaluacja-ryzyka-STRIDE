@@ -404,15 +404,6 @@
                 "denialOfService": 0,
                 "elevationOfPrivilege": 1
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -970,6 +961,10 @@
               {
                 "x": 830,
                 "y": 140
+              },
+              {
+                "x": 880,
+                "y": 110
               }
             ]
           },
